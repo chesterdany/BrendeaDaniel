@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { Route } from "react-router-dom";
 
-import HomePage from "./Presentional/HomePage/HomePage";
+import HomePage from "./UI/HomePage/HomePage";
 
 function App() {
   return (

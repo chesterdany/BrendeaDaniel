@@ -1,0 +1,29 @@
+.Navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  right: 0px;
+  z-index: 2;
+  background-color: black;
+  color: blue;
+  height: 100%;
+}
+
+.Logo {
+  width: 80px;
+  height: 70px;
+  padding: 15px;
+}
+
+.LogoDiv {
+  width: 110px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  margin-top: 55px;
+}
