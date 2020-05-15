@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "../NavBar/Navbar";
 
-const projectPage = () => {
+const contactPage = () => {
   return <Navbar />;
 };
 
-export default projectPage;
+export default contactPage;

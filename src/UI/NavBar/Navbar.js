@@ -6,20 +6,17 @@ import classes from "./Navbar.module.css";
 const navbar = () => {
   return (
     <nav className={classes.Navbar}>
-      <div className={classes.LogoDiv}>
-        <img className={classes.Logo} src={logo} alt="logo" />
-      </div>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/projects">Projects</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact</Link>
-        </li>
-      </ul>
+      <Link to="/projects" className={classes.Link}>
+        Projects
+      </Link>
+      <Link to="/">
+        <div className={classes.LogoDiv}>
+          <img className={classes.Logo} src={logo} alt="logo" />
+        </div>
+      </Link>
+      <Link to="/contact" className={classes.Link}>
+        Contact
+      </Link>
     </nav>
   );
 };
