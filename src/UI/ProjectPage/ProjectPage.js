@@ -6,6 +6,7 @@ import rgbGame from "../../assests/images/rgbGame.png";
 import shop from "../../assests/images/shop.png";
 import todoList from "../../assests/images/todolist.png";
 import projectPlanner from "../../assests/images/projectPlaner.png";
+import solo from "../../assests/images/solo.png";
 
 const projectPage = () => {
   return (
@@ -33,6 +34,11 @@ const projectPage = () => {
           src={projectPlanner}
           apphref="https://chesterdany.github.io/Portofoliu/Projects/ProjectPlanner/index.html"
           sourcehref="https://github.com/chesterdany/Portofoliu/tree/master/Projects/ProjectPlanner"
+        />
+        <Project
+          src={solo}
+          apphref="https://chesterdany.github.io/Portofoliu/Projects/SoloGame/index.html"
+          sourcehref="https://github.com/chesterdany/Portofoliu/tree/master/Projects/SoloGame"
         />
       </div>
     </div>
