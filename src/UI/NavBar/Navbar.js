@@ -1,22 +1,30 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from "../../assests/images/logo_transparent_small.png";
 import classes from "./Navbar.module.css";
 
 const navbar = () => {
   return (
     <nav className={classes.Navbar}>
-      <Link to="/projects" className={classes.Link}>
+      <NavLink
+        to="/projects"
+        activeClassName={classes.active}
+        className={classes.Link}
+      >
         Projects
-      </Link>
-      <Link to="/">
+      </NavLink>
+      <NavLink to="/">
         <div className={classes.LogoDiv}>
           <img className={classes.Logo} src={logo} alt="logo" />
         </div>
-      </Link>
-      <Link to="/contact" className={classes.Link}>
+      </NavLink>
+      <NavLink
+        to="/contact"
+        activeClassName={classes.active}
+        className={classes.Link}
+      >
         Contact
-      </Link>
+      </NavLink>
     </nav>
   );
 };

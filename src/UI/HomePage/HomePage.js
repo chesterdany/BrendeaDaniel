@@ -1,5 +1,5 @@
 import React from "react";
-import indeximage from "../../assests/images/indeximage.jpeg";
+import indeximage from "../../assests/images/indeximagemod.jpeg";
 import classes from "./HomePage.module.css";
 import Navbar from "../NavBar/Navbar";
 import portret from "../../assests/images/daniel.png";

@@ -33,11 +33,15 @@
   text-decoration: none;
 }
 
-/* .Logo:hover {
-  animation-name: spin;
-  animation-timing-function: linear;
-  animation-duration: 3s;
-} */
+.Link:hover,
+.Link.active {
+  color: #81bee7;
+  text-decoration: underline;
+}
+
+.LogoDiv:hover {
+  box-shadow: 0px 0px 3px 2px #81bee7;
+}
 
 @keyframes spin {
   from {

@@ -7,7 +7,7 @@
 
 .HomePage {
   height: 90vh;
-  color: #e1f2f7;
+  color: #95d8f7;
   display: grid;
   grid-template-columns: 40% 60%;
   align-items: center;
@@ -19,11 +19,20 @@
   text-align: center;
 }
 
+.Box3 a {
+  color: red;
+  text-decoration: none;
+}
+
+.Box3 a:hover {
+  color: white;
+}
+
 .Portret {
   width: 240px;
   height: 280px;
   border-radius: 45%;
-  box-shadow: 0 0 10px #226089;
+  box-shadow: 0 0 5px 2px #95d8f7;
 }
 
 @media (max-width: 800px) {
