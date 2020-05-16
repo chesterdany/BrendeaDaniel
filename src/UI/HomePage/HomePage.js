@@ -31,11 +31,33 @@ const homePage = () => {
           <p>
             Learning from my mistakes and searching for some answers on the web
             I discovered
-            <a href="https://github.com/chesterdany"> Github </a>,
-            <a href="https://stackoverflow.com/"> Stackoverflow </a>
+            <a
+              href="https://github.com/chesterdany"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              Github{" "}
+            </a>
+            ,
+            <a
+              href="https://stackoverflow.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              Stackoverflow{" "}
+            </a>
             and the one that help me the most
-            <a href="https://www.udemy.com"> Udemy </a>. Now I'm familiar with
-            HTML5, CSS3, Javascript and React.js.
+            <a
+              href="https://www.udemy.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              Udemy{" "}
+            </a>
+            . Now I'm familiar with HTML5, CSS3, Javascript and React.js.
           </p>
         </div>
       </div>

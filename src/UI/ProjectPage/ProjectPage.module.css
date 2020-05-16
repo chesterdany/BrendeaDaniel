@@ -1,0 +1,40 @@
+.ProjectPage {
+  text-align: center;
+  background-color: #d9d9f7;
+  height: 100vh;
+}
+
+.Hr {
+  width: 80%;
+  border: 1px solid black;
+}
+
+.Gallery {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  background-color: #d9d9f7;
+}
+
+.Gallery img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.ImageDiv {
+  box-shadow: 5px 5px 5px 0px black;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.SourceCode {
+  color: #226089;
+  font-size: small;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.SourceCode:hover {
+  color: #bbdaee;
+}
