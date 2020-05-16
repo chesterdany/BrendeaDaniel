@@ -3,6 +3,7 @@ import indeximage from "../../assests/images/indeximagemod.jpeg";
 import classes from "./HomePage.module.css";
 import Navbar from "../NavBar/Navbar";
 import portret from "../../assests/images/daniel.png";
+import Plink from "./pLink";
 
 const homePage = () => {
   return (
@@ -19,7 +20,7 @@ const homePage = () => {
         </div>
         <div className={classes.Box2}>
           <h1 className={classes.Introduction}>
-            Hi, my name is Daniel and i'm a self taught web developer
+            I'm Daniel and I'm a self-taught web developer
           </h1>
         </div>
         <div className={classes.Box3}>
@@ -31,33 +32,11 @@ const homePage = () => {
           <p>
             Learning from my mistakes and searching for some answers on the web
             I discovered
-            <a
-              href="https://github.com/chesterdany"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {" "}
-              Github{" "}
-            </a>
-            ,
-            <a
-              href="https://stackoverflow.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {" "}
-              Stackoverflow{" "}
-            </a>
+            <Plink href="https://github.com/chesterdany" name="Gitgub" />,
+            <Plink href="https://stackoverflow.com/" name="Stackoverflow" />
             and the one that help me the most
-            <a
-              href="https://www.udemy.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {" "}
-              Udemy{" "}
-            </a>
-            . Now I'm familiar with HTML5, CSS3, Javascript and React.js.
+            <Plink href="https://www.udemy.com" name="Udemy" />. Now I'm
+            familiar with HTML5, CSS3, Javascript and React.
           </p>
         </div>
       </div>

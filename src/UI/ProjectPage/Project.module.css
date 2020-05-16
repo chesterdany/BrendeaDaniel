@@ -1,0 +1,27 @@
+.ImageDiv {
+  box-shadow: 5px 5px 5px 0px black;
+  border-radius: 5px;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.github {
+  color: white;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.gitdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}

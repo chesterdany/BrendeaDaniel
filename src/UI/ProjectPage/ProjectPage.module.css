@@ -2,6 +2,7 @@
   text-align: center;
   background-color: #d9d9f7;
   height: 100vh;
+  text-shadow: 2px 2px 2px black;
 }
 
 .Hr {
@@ -20,21 +21,4 @@
 .Gallery img {
   width: 100%;
   border-radius: 5px;
-}
-
-.ImageDiv {
-  box-shadow: 5px 5px 5px 0px black;
-  border-radius: 5px;
-  background-color: black;
-}
-
-.SourceCode {
-  color: #226089;
-  font-size: small;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.SourceCode:hover {
-  color: #bbdaee;
 }

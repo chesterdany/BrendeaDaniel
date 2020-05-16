@@ -5,7 +5,7 @@
   z-index: 3;
   background-color: #000000;
   width: 100%;
-  box-shadow: 0 5px 5px #226089;
+  box-shadow: 0 5px 5px #3a82b3;
 }
 
 .Logo {
@@ -27,7 +27,7 @@
 }
 
 .Link {
-  color: #226089;
+  color: #3a82b3;
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
