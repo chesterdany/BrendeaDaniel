@@ -1,5 +1,27 @@
 .ContactPage {
   height: 100vh;
   background-color: #d9d9f7;
+}
+
+.ContactDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5% 20%;
+}
+
+.SocialDiv {
+  position: fixed;
+  bottom: 0px;
+  background-color: black;
+  width: 100%;
   text-align: center;
+}
+
+.SocialDiv a {
+  color: red;
+}
+
+.link {
+  font-size: 20px;
+  padding: 15px;
 }

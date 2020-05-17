@@ -4,7 +4,8 @@ const plink = (props) => {
   return (
     <a href={props.href} target="_blank" rel="noopener noreferrer">
       {" "}
-      {props.name}{" "}
+      {props.name}
+      {props.children}{" "}
     </a>
   );
 };
