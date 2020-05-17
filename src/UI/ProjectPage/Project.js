@@ -7,6 +7,7 @@ const project = (props) => {
     <div className={classes.ImageDiv}>
       <a href={props.apphref} target="_blank" rel="noopener noreferrer">
         <img src={props.src} alt={props.src} />
+        {/* <span className={classes.tooltip}>Try it!</span> */}
       </a>
       <a href={props.sourcehref} target="_blank" rel="noopener noreferrer">
         <div className={classes.gitdiv}>

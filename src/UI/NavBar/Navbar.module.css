@@ -2,10 +2,10 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  z-index: 3;
   background-color: #000000;
   width: 100%;
   box-shadow: 0 5px 5px #3a82b3;
+  z-index: 5;
 }
 
 .Logo {

@@ -1,14 +1,14 @@
 import React from "react";
 import Navbar from "../NavBar/Navbar";
-import Cv from "../../assests/cv/CV-BrendeaDaniel.pdf";
+import CvButton from "./CvButton/cvButton";
+import classes from "./ContactPage.module.css";
 
 const contactPage = () => {
   return (
-    <div>
+    <div className={classes.ContactPage}>
       <Navbar />
-      <a href={Cv} target="_blank" rel="noopener noreferrer">
-        <button>View CV</button>
-      </a>
+
+      <CvButton />
     </div>
   );
 };

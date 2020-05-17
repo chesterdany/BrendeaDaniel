@@ -3,7 +3,7 @@ import indeximage from "../../assests/images/indeximagemod.jpeg";
 import classes from "./HomePage.module.css";
 import Navbar from "../NavBar/Navbar";
 import portret from "../../assests/images/daniel.png";
-import Plink from "./pLink";
+import Plink from "./Plink/pLink";
 
 const homePage = () => {
   return (
@@ -20,7 +20,7 @@ const homePage = () => {
         </div>
         <div className={classes.Box2}>
           <h1 className={classes.Introduction}>
-            I'm Daniel and I'm a self-taught web developer
+            I'm Daniel a self-taught web developer
           </h1>
         </div>
         <div className={classes.Box3}>
