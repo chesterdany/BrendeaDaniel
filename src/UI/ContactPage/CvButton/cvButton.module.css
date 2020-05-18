@@ -14,3 +14,10 @@
 a {
   color: #fcfcfc;
 }
+
+@media (max-width: 800px) {
+  .cvdivlink {
+    display: block;
+    margin: 30px auto;
+  }
+}

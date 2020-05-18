@@ -1,6 +1,6 @@
 .ContactPage {
   height: 100vh;
-  background-color: #2b2b2e;
+  background-color: #262627;
   color: #84c7f9;
 }
 
@@ -30,4 +30,15 @@ h3 {
   font-size: 30px;
   padding-right: 10px;
   color: white;
+}
+
+@media (max-width: 800px) {
+  .ContactDiv {
+    display: block;
+    padding: 7% 30px;
+  }
+  .ContactDetails {
+    margin: 70px 0;
+    text-align: center;
+  }
 }
