@@ -7,11 +7,11 @@
 
 .HomePage {
   height: 90vh;
-  color: #95d8f7;
+  color: #84c7f9;
   display: grid;
   grid-template-columns: 50% 50%;
   align-items: center;
-  padding: 5% 7% 0 7%;
+  padding: 5% 10% 0 10%;
 }
 
 .Box3 {
@@ -22,7 +22,7 @@
 }
 
 .Box3 a {
-  color: #95d8f7;
+  color: #84c7f9;
   text-decoration: none;
 }
 
@@ -33,13 +33,11 @@
 .Portret {
   width: 240px;
   height: 280px;
-  border-radius: 45%;
-  box-shadow: 0 0 5px 2px #95d8f7;
-  margin: 0 auto;
+  border-radius: 20%;
 }
 
 .Introduction {
-  font-size: 40px;
+  font-size: 2.5em;
   animation: fadein 4s;
 }
 

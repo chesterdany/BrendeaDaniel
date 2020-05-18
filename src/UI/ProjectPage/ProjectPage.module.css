@@ -1,13 +1,24 @@
+.IndexImage {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
 .ProjectPage {
   text-align: center;
-  background-color: #d9d9f7;
   height: 100vh;
-  text-shadow: 2px 2px 2px black;
+}
+
+.Header {
+  color: #84c7f9;
+  margin-top: 5%;
 }
 
 .Hr {
+  margin-top: 3%;
   width: 80%;
-  border: 1px solid black;
+  border: 1px solid #84c7f9;
 }
 
 .Gallery {
@@ -15,7 +26,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 40px;
-  background-color: #d9d9f7;
 }
 
 .Gallery img {

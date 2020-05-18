@@ -7,41 +7,50 @@ import shop from "../../assests/images/shop.png";
 import todoList from "../../assests/images/todolist.png";
 import projectPlanner from "../../assests/images/projectPlaner.png";
 import solo from "../../assests/images/solo.png";
+import indeximage from "../../assests/images/indeximagemod.jpeg";
 
 const projectPage = () => {
   return (
-    <div className={classes.ProjectPage}>
+    <React.Fragment>
+      <img
+        className={classes.IndexImage}
+        src={indeximage}
+        alt="backgroundImage"
+      />
       <Navbar />
-      <h1 className={classes.Header}>Projects</h1>
-      <hr className={classes.Hr} />
-      <div className={classes.Gallery}>
-        <Project
-          src={rgbGame}
-          apphref="https://chesterdany.github.io/Portofoliu/Projects/ColorGame/colorGame.html"
-          sourcehref="https://github.com/chesterdany/Portofoliu/tree/master/Projects/ColorGame"
-        />
-        <Project
-          src={shop}
-          apphref="https://chesterdany.github.io/Portofoliu/Projects/dummyShop/index.html"
-          sourcehref="https://github.com/chesterdany/Portofoliu/tree/master/Projects/dummyShop"
-        />
-        <Project
-          src={todoList}
-          apphref="https://chesterdany.github.io/Portofoliu/Projects/TodoListProject/index.html"
-          sourcehref="https://github.com/chesterdany/Portofoliu/tree/master/Projects/TodoListProject"
-        />
-        <Project
-          src={projectPlanner}
-          apphref="https://chesterdany.github.io/Portofoliu/Projects/ProjectPlanner/index.html"
-          sourcehref="https://github.com/chesterdany/Portofoliu/tree/master/Projects/ProjectPlanner"
-        />
-        <Project
-          src={solo}
-          apphref="https://chesterdany.github.io/Portofoliu/Projects/SoloGame/index.html"
-          sourcehref="https://github.com/chesterdany/Portofoliu/tree/master/Projects/SoloGame"
-        />
+
+      <div className={classes.ProjectPage}>
+        <h1 className={classes.Header}>Projects</h1>
+        <hr className={classes.Hr} />
+        <div className={classes.Gallery}>
+          <Project
+            src={rgbGame}
+            apphref="https://chesterdany.github.io/Portofoliu/Projects/ColorGame/colorGame.html"
+            sourcehref="https://github.com/chesterdany/Portofoliu/tree/master/Projects/ColorGame"
+          />
+          <Project
+            src={shop}
+            apphref="https://chesterdany.github.io/Portofoliu/Projects/dummyShop/index.html"
+            sourcehref="https://github.com/chesterdany/Portofoliu/tree/master/Projects/dummyShop"
+          />
+          <Project
+            src={todoList}
+            apphref="https://chesterdany.github.io/Portofoliu/Projects/TodoListProject/index.html"
+            sourcehref="https://github.com/chesterdany/Portofoliu/tree/master/Projects/TodoListProject"
+          />
+          <Project
+            src={projectPlanner}
+            apphref="https://chesterdany.github.io/Portofoliu/Projects/ProjectPlanner/index.html"
+            sourcehref="https://github.com/chesterdany/Portofoliu/tree/master/Projects/ProjectPlanner"
+          />
+          <Project
+            src={solo}
+            apphref="https://chesterdany.github.io/Portofoliu/Projects/SoloGame/index.html"
+            sourcehref="https://github.com/chesterdany/Portofoliu/tree/master/Projects/SoloGame"
+          />
+        </div>
       </div>
-    </div>
+    </React.Fragment>
   );
 };
 

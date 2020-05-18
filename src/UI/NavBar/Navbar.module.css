@@ -1,11 +1,9 @@
 .Navbar {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  background-color: #000000;
   width: 100%;
-  box-shadow: 0 5px 5px #3a82b3;
-  z-index: 5;
+  /* background-color: black; */
 }
 
 .Logo {
@@ -22,25 +20,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: radial-gradient(circle, white, #226089);
+  background-color: #84c7f9;
   margin: 5px;
+  border: 1px solid white;
 }
 
 .Link {
-  color: #3a82b3;
+  color: #84c7f9;
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
+  letter-spacing: 0.02em;
 }
 
 .Link:hover,
 .Link.active {
-  color: #bbdaee;
+  color: white;
   text-decoration: underline;
-}
-
-.LogoDiv:hover {
-  box-shadow: 0px 0px 3px 2px #bbdaee;
 }
 
 @keyframes spin {
