@@ -1,6 +1,6 @@
 .Navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   /* background-color: black; */
@@ -27,6 +27,7 @@
 
 .Link {
   color: #84c7f9;
+  margin: 0 15%;
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
@@ -45,5 +46,11 @@
   }
   to {
     transform: rotateY(360deg);
+  }
+}
+
+@media (max-width: 800px) {
+  .Link {
+    margin: 0 30px;
   }
 }

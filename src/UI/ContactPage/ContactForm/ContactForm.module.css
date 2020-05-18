@@ -1,0 +1,38 @@
+.label {
+  display: block;
+  font-size: 20px;
+}
+
+.label input {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 2%;
+  font-size: inherit;
+  width: 96%;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.textarea {
+  /* display: block; */
+  background-color: black;
+  color: white;
+  padding: 2%;
+  font-size: inherit;
+  width: 96%;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.submitbtn {
+  height: 40px;
+  width: 100%;
+  background-color: black;
+  color: #7a7580;
+  border: 1px solid #7a7580;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 1%;
+  font-weight: bold;
+}

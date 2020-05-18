@@ -2,6 +2,8 @@
   box-shadow: 5px 5px 5px 0px black;
   border-radius: 5px;
   background-color: black;
+  color: #84c7f9;
+  animation: fadein 3s;
 }
 
 a {
@@ -9,12 +11,12 @@ a {
 }
 
 .github {
-  color: white;
+  color: #84c7f9;
 }
 
 .btn {
   background-color: black;
-  color: white;
+  color: #84c7f9;
   border: none;
   cursor: pointer;
 }
@@ -24,4 +26,17 @@ a {
   align-items: center;
   justify-content: center;
   padding: 5px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

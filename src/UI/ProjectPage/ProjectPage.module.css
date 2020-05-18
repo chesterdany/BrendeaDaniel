@@ -22,7 +22,7 @@
 }
 
 .Gallery {
-  padding: 40px;
+  padding: 20px 10%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 40px;
@@ -31,4 +31,13 @@
 .Gallery img {
   width: 100%;
   border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+  .Header {
+    margin: 50px 0;
+  }
+  .Gallery {
+    padding: 30px;
+  }
 }
