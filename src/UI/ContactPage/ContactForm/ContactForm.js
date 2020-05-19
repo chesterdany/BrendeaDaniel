@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./ContactForm.module.css";
 import Input from "../ContactForm/Input";
+import Axios from "axios";
 
 class ContactForm extends React.Component {
   state = {
@@ -37,8 +38,12 @@ class ContactForm extends React.Component {
     event.preventDefault();
     // contact form validation
     // show custom alert
-    console.log(this.state);
-    alert("Your email was send!");
+    const message = {
+      name: this.state.contactForm.name.value,
+      email: this.state.contactForm.email.value,
+      message: this.state.contactForm.message.value,
+    };
+    Axios.post("/messages.json", message);
   };
 
   inputChangeHandler = (e, identifier) => {
@@ -77,35 +82,6 @@ class ContactForm extends React.Component {
       </form>
     );
     return form;
-    // <form onSubmit={this.handleSubmit}>
-    //   <Input
-    //     inputtype="input"
-    //     type="text"
-    //     name="text"
-    //     labelname="Name"
-    //     changed={(e) => this.inputChangeHandler(e, "name")}
-    //   />
-    //   <Input
-    //     inputtype="input"
-    //     type="email"
-    //     name="email"
-    //     labelname="Email"
-    //     changed={(e) => this.inputChangeHandler(e, "email")}
-    //   />
-    //   <Input
-    //     inputtype="textarea"
-    //     type="textarea"
-    //     name="textarea"
-    //     rows="4"
-    //     labelname="Message"
-    //     changed={(e) => this.inputChangeHandler(e, "message")}
-    //   />
-    //   <input
-    //     type="submit"
-    //     value="Send(Dummy)"
-    //     className={classes.submitbtn}
-    //   />
-    // </form>
   }
 }
 

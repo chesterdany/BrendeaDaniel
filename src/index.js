@@ -4,6 +4,9 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter } from "react-router-dom";
+import Axios from "axios";
+
+Axios.defaults.baseURL = "https://portofolio-2c5fd.firebaseio.com";
 
 ReactDOM.render(
   <BrowserRouter>
