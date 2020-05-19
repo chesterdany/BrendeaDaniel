@@ -3,12 +3,12 @@ import classes from "./Input.module.css";
 
 const input = (props) => {
   let inputElement = null;
-  switch (props.inputtype) {
+  switch (props.inputType) {
     case "input":
       inputElement = (
         <input
           className={classes.InputElement}
-          {...props}
+          {...props.elementConfig}
           onChange={props.changed}
         />
       );
@@ -17,7 +17,7 @@ const input = (props) => {
       inputElement = (
         <input
           className={classes.InputElement}
-          {...props}
+          {...props.elementConfig}
           onChange={props.changed}
         />
       );
@@ -26,7 +26,8 @@ const input = (props) => {
       inputElement = (
         <textarea
           className={classes.InputElement}
-          {...props}
+          {...props.elementConfig}
+          rows="5"
           onChange={props.changed}
         />
       );
@@ -36,7 +37,7 @@ const input = (props) => {
       inputElement = (
         <input
           className={classes.InputElement}
-          {...props}
+          {...props.elementConfig}
           onChange={props.changed}
         />
       );
@@ -45,7 +46,7 @@ const input = (props) => {
 
   return (
     <div className={classes.Input}>
-      <label className={classes.Label}>{props.labelname}</label>
+      <label className={classes.Label}>{props.elementName}</label>
       {inputElement}
     </div>
   );
