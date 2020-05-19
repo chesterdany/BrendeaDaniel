@@ -21,7 +21,11 @@ class ContactForm extends React.Component {
           rows="4"
           labelname="Message:"
         />
-        <input type="submit" value="Send" className={classes.submitbtn} />
+        <input
+          type="submit"
+          value="Send(Dummy)"
+          className={classes.submitbtn}
+        />
       </form>
     );
   }

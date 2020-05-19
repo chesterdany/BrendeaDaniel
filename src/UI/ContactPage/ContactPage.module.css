@@ -2,9 +2,11 @@
   height: 100vh;
   background-color: #262627;
   color: #84c7f9;
+  /* box-sizing: border-box; */
 }
 
 .ContactDiv {
+  background-color: #262627;
   display: grid;
   grid-template-columns: 40% 55%;
   padding: 7% 15%;
