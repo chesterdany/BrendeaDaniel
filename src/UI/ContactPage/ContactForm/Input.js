@@ -5,17 +5,41 @@ const input = (props) => {
   let inputElement = null;
   switch (props.inputtype) {
     case "input":
-      inputElement = <input className={classes.InputElement} {...props} />;
+      inputElement = (
+        <input
+          className={classes.InputElement}
+          {...props}
+          onChange={props.changed}
+        />
+      );
       break;
     case "email":
-      inputElement = <input className={classes.InputElement} {...props} />;
+      inputElement = (
+        <input
+          className={classes.InputElement}
+          {...props}
+          onChange={props.changed}
+        />
+      );
       break;
     case "textarea":
-      inputElement = <textarea className={classes.InputElement} {...props} />;
+      inputElement = (
+        <textarea
+          className={classes.InputElement}
+          {...props}
+          onChange={props.changed}
+        />
+      );
       break;
 
     default:
-      inputElement = <input className={classes.InputElement} {...props} />;
+      inputElement = (
+        <input
+          className={classes.InputElement}
+          {...props}
+          onChange={props.changed}
+        />
+      );
       break;
   }
 
