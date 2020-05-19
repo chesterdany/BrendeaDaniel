@@ -8,19 +8,26 @@ class ContactForm extends React.Component {
       name: {
         value: "",
         inputType: "input",
-        type: "text",
+        inputConfig: {
+          type: "text",
+        },
         labelName: "Name",
       },
       email: {
         value: "",
         inputType: "email",
-        type: "email",
+        inputConfig: {
+          type: "email",
+        },
         labelName: "Email",
       },
       message: {
         value: "",
         inputType: "textarea",
-        type: "text",
+        inputConfig: {
+          type: "text",
+          rows: "5",
+        },
         labelName: "Message",
       },
     },
@@ -28,6 +35,9 @@ class ContactForm extends React.Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
+    // contact form validation
+    // show custom alert
+    console.log(this.state);
     alert("Your email was send!");
   };
 
@@ -54,7 +64,7 @@ class ContactForm extends React.Component {
           <Input
             key={formElement.id}
             inputType={formElement.config.inputType}
-            elementConfig={formElement.config.type}
+            elementConfig={formElement.config.inputConfig}
             elementName={formElement.config.labelName}
             changed={(e) => this.inputChangeHandler(e, formElement.id)}
           />

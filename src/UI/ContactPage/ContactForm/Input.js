@@ -27,7 +27,6 @@ const input = (props) => {
         <textarea
           className={classes.InputElement}
           {...props.elementConfig}
-          rows="5"
           onChange={props.changed}
         />
       );
