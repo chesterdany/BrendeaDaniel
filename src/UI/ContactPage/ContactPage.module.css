@@ -27,15 +27,24 @@ h3 {
   font-weight: 450;
 }
 
-.ContactDetails h4 {
+.ContactDetails .fadiv {
   color: white;
   font-weight: 400;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .link {
   font-size: 30px;
   padding-right: 10px;
   color: white;
+}
+
+.faicons {
+  font-size: 20px;
+  margin-right: 5px;
 }
 
 @media (max-width: 800px) {
@@ -46,5 +55,9 @@ h3 {
   .ContactDetails {
     margin: 70px 0;
     text-align: center;
+  }
+  .fadiv {
+    display: flex;
+    justify-content: center;
   }
 }

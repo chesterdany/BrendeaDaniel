@@ -24,6 +24,7 @@
 .Box3 a {
   color: #84c7f9;
   text-decoration: none;
+  font-weight: 400;
 }
 
 .Box3 a:hover {

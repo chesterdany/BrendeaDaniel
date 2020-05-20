@@ -37,13 +37,13 @@ class ContactForm extends React.Component {
   handleSubmit = (event) => {
     event.preventDefault();
     // contact form validation
-    // show custom alert
     const message = {
       name: this.state.contactForm.name.value,
       email: this.state.contactForm.email.value,
       message: this.state.contactForm.message.value,
     };
     Axios.post("/messages.json", message);
+    // show custom alert
     alert("Message send!");
   };
 
