@@ -13,6 +13,7 @@ class ContactForm extends React.Component {
           type: "text",
         },
         labelName: "Name",
+        valid: false,
       },
       email: {
         value: "",
@@ -21,6 +22,7 @@ class ContactForm extends React.Component {
           type: "email",
         },
         labelName: "Email",
+        valid: false,
       },
       message: {
         value: "",
@@ -30,29 +32,44 @@ class ContactForm extends React.Component {
           rows: "5",
         },
         labelName: "Message",
+        valid: false,
       },
     },
+    submitted: false,
+    submitable: false,
+  };
+
+  checkValidity = (value) => {
+    let isValid = false;
+    if (value.trim() !== "") {
+      isValid = true;
+    }
+    return isValid;
   };
 
   handleSubmit = (event) => {
     event.preventDefault();
-    // contact form validation
     const message = {
       name: this.state.contactForm.name.value,
       email: this.state.contactForm.email.value,
       message: this.state.contactForm.message.value,
     };
     Axios.post("/messages.json", message);
-    // show custom alert
-    alert("Message send!");
+    this.setState({ submitted: true });
   };
 
   inputChangeHandler = (e, identifier) => {
     const updatedState = { ...this.state.contactForm };
     const updatedValue = { ...updatedState[identifier] };
     updatedValue.value = e.target.value;
+    updatedValue.valid = this.checkValidity(updatedValue.value);
     updatedState[identifier] = updatedValue;
-    this.setState({ contactForm: updatedState });
+
+    let formIsValid = true;
+    for (const identifier in updatedState) {
+      formIsValid = updatedState[identifier].valid && formIsValid;
+    }
+    this.setState({ contactForm: updatedState, submitable: formIsValid });
   };
 
   render() {
@@ -75,10 +92,20 @@ class ContactForm extends React.Component {
             changed={(e) => this.inputChangeHandler(e, formElement.id)}
           />
         ))}
-        <input type="submit" value="Send" className={classes.submitbtn} />
+        <input
+          disabled={!this.state.submitable || this.state.submitted}
+          type="submit"
+          value="Send"
+          className={classes.submitbtn}
+        />
       </form>
     );
-    return form;
+    return (
+      <div>
+        {this.state.submitted ? <p>Your message was send! Thank you!</p> : null}
+        {form}
+      </div>
+    );
   }
 }
 

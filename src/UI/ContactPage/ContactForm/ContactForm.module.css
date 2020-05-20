@@ -2,11 +2,15 @@
   height: 40px;
   width: 100%;
   background-color: black;
-  color: #7a7580;
+  color: #84c7f9;
   border: 1px solid #7a7580;
   font-size: inherit;
   font-family: inherit;
   padding: 1%;
   font-weight: bold;
   cursor: pointer;
+}
+
+.submitbtn:disabled {
+  color: #605d64;
 }
