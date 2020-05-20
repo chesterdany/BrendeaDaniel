@@ -44,6 +44,7 @@ class ContactForm extends React.Component {
       message: this.state.contactForm.message.value,
     };
     Axios.post("/messages.json", message);
+    alert("Message send!");
   };
 
   inputChangeHandler = (e, identifier) => {
@@ -74,11 +75,7 @@ class ContactForm extends React.Component {
             changed={(e) => this.inputChangeHandler(e, formElement.id)}
           />
         ))}
-        <input
-          type="submit"
-          value="Send(Dummy)"
-          className={classes.submitbtn}
-        />
+        <input type="submit" value="Send" className={classes.submitbtn} />
       </form>
     );
     return form;

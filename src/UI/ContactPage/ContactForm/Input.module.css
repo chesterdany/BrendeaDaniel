@@ -5,10 +5,10 @@
 
 .InputElement {
   display: block;
-  background-color: black;
-  color: white;
+  background-color: #84c7f9;
   padding: 2%;
   font-family: inherit;
+  font-weight: bold;
   width: 100%;
   border: none;
   margin-bottom: 20px;
@@ -19,8 +19,4 @@
   display: block;
   font-size: 20px;
   margin-bottom: 10px;
-}
-
-.InputElement:focus {
-  border: 1px solid white;
 }
