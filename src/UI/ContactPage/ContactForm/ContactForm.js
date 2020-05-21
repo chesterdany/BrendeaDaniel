@@ -41,7 +41,7 @@ class ContactForm extends React.Component {
 
   checkValidity = (value) => {
     let isValid = false;
-    if (value.trim() !== "") {
+    if (value !== "") {
       isValid = true;
     }
     return isValid;
