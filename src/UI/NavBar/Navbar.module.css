@@ -10,9 +10,9 @@
   width: 40px;
   height: 32px;
   padding: 8px;
-  animation-name: spin;
+  /* animation-name: spin;
   animation-timing-function: linear;
-  animation-duration: 3s;
+  animation-duration: 3s; */
 }
 
 .LogoDiv {
