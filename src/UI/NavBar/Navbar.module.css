@@ -10,9 +10,7 @@
   width: 40px;
   height: 32px;
   padding: 8px;
-  /* animation-name: spin;
-  animation-timing-function: linear;
-  animation-duration: 3s; */
+  animation: spin 3s linear;
 }
 
 .LogoDiv {
@@ -43,17 +41,20 @@
   text-decoration: underline;
 }
 
+@media (max-width: 800px) {
+  .Logo {
+    animation: none;
+  }
+  .Link {
+    margin: 0 30px;
+  }
+}
+
 @keyframes spin {
   from {
     transform: rotateY(0deg);
   }
   to {
     transform: rotateY(360deg);
-  }
-}
-
-@media (max-width: 800px) {
-  .Link {
-    margin: 0 30px;
   }
 }
