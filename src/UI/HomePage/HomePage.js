@@ -24,7 +24,7 @@ const homePage = () => {
             Daniel <span>Brendea</span>
           </h1>
           <hr />
-          <p>Web Developer,Designer and Programmer</p>
+          <p>Front-End Developer and Designer</p>
         </div>
         <div className={classes.Box3}>
           <p>
@@ -35,7 +35,7 @@ const homePage = () => {
           <p>
             Learning from my mistakes and searching for some answers on the web
             I discovered
-            <Plink href="https://github.com/chesterdany" name="Gitgub" />,
+            <Plink href="https://github.com/chesterdany" name="Github" />,
             <Plink href="https://stackoverflow.com/" name="Stackoverflow" />
             and the one that help me the most
             <Plink href="https://www.udemy.com" name="Udemy" />. Now I'm

@@ -13,6 +13,7 @@ import CvButton from "./CvButton/cvButton";
 import Plink from "../HomePage/Plink/pLink";
 import ContactForm from "./ContactForm/ContactForm";
 import indeximage from "../../assests/images/indeximagemod.jpeg";
+import Footer from "../Footer/Footer";
 
 const contactPage = () => {
   return (
@@ -54,6 +55,7 @@ const contactPage = () => {
           <ContactForm />
         </div>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };
