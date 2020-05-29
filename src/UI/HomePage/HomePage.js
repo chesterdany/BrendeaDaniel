@@ -19,7 +19,7 @@ const homePage = () => {
           <img className={classes.Portret} src={portret} alt="daniel" />
         </div>
         <div className={classes.Introduction}>
-          <p>Hi!My name is</p>
+          <p>Hi! My name is</p>
           <h1>
             Daniel <span>Brendea</span>
           </h1>

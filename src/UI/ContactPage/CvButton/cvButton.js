@@ -1,12 +1,12 @@
 import React from "react";
-import cv from "../../../assests/cv/CV-BrendeaDaniel.pdf";
+import cv from "../../../assests/cv/CV-BrendeaDaniel-RO.pdf";
 import classes from "./cvButton.module.css";
 
 const cvButton = (props) => {
   return (
     <div className={classes.cvdivlink}>
       <a href={cv} target="_blank" rel="noopener noreferrer">
-        View CV
+        - View CV -
       </a>
     </div>
   );
