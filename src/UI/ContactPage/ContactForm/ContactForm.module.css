@@ -2,8 +2,8 @@
   height: 40px;
   width: 100%;
   background-color: black;
-  color: #84c7f9;
-  border: 1px solid #7a7580;
+  color: #ff6d3f;
+  border: 1px solid #ff6d3f;
   font-size: inherit;
   font-family: inherit;
   padding: 1%;
@@ -13,4 +13,9 @@
 
 .submitbtn:disabled {
   color: #605d64;
+  border: 1px solid #605d64;
+}
+
+.sendMessagge {
+  color: #ff6d3f;
 }

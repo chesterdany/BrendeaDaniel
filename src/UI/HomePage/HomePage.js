@@ -18,10 +18,13 @@ const homePage = () => {
         <div className={classes.Box1}>
           <img className={classes.Portret} src={portret} alt="daniel" />
         </div>
-        <div className={classes.Box2}>
-          <h1 className={classes.Introduction}>
-            I'm Daniel a self-taught web developer
+        <div className={classes.Introduction}>
+          <p>Hi!My name is</p>
+          <h1>
+            Daniel <span>Brendea</span>
           </h1>
+          <hr />
+          <p>Web Developer,Designer and Programmer</p>
         </div>
         <div className={classes.Box3}>
           <p>
@@ -36,7 +39,7 @@ const homePage = () => {
             <Plink href="https://stackoverflow.com/" name="Stackoverflow" />
             and the one that help me the most
             <Plink href="https://www.udemy.com" name="Udemy" />. Now I'm
-            familiar with HTML5, CSS3, Javascript and React.
+            familiar with HTML5, CSS3, Sass, Javascript and React.
           </p>
         </div>
       </div>

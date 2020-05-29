@@ -20,15 +20,17 @@
 h2 {
   font-size: 30px;
   font-weight: 450;
+  color: #ff6d3f;
 }
 
 h3 {
   font-size: 20px;
   font-weight: 450;
+  color: #ff6d3f;
 }
 
 .ContactDetails .fadiv {
-  color: white;
+  color: #fff;
   font-weight: 400;
   display: flex;
   justify-items: center;
@@ -39,7 +41,11 @@ h3 {
 .link {
   font-size: 30px;
   padding-right: 10px;
-  color: white;
+  color: #fff;
+}
+
+.link:hover {
+  color: #ff6d3f;
 }
 
 .faicons {

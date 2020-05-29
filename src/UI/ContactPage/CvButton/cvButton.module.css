@@ -1,6 +1,6 @@
 .cvdivlink {
   background-color: #000000;
-  border: 1px solid #7a7580;
+  border: 1px solid #ff6d3f;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,7 +14,7 @@
 }
 
 a {
-  color: #84c7f9;
+  color: #ff6d3f;
   font-weight: bold;
 }
 

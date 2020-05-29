@@ -18,13 +18,13 @@
 .Hr {
   margin-top: 3%;
   width: 80%;
-  border: 1px solid #84c7f9;
+  border: 1px solid #ff6d3f;
 }
 
 .Gallery {
   padding: 20px 10%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 0.8fr));
   grid-gap: 40px;
 }
 
@@ -39,5 +39,9 @@
   }
   .Gallery {
     padding: 30px;
+    justify-content: center;
+  }
+  .Hr {
+    width: 90%;
   }
 }

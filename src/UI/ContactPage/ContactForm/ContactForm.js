@@ -102,7 +102,11 @@ class ContactForm extends React.Component {
     );
     return (
       <div>
-        {this.state.submitted ? <p>Your message was send! Thank you!</p> : null}
+        {this.state.submitted ? (
+          <p className={classes.sendMessagge}>
+            Your message was send! Thank you!
+          </p>
+        ) : null}
         {form}
       </div>
     );

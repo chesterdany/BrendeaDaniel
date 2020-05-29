@@ -23,7 +23,7 @@
 }
 
 .LogoDiv:hover {
-  box-shadow: 0px 0px 0px 1px white inset;
+  box-shadow: 0px 0px 0px 1px #ff6d3f inset;
 }
 
 .Link {
@@ -37,7 +37,7 @@
 
 .Link:hover,
 .Link.active {
-  color: white;
+  color: #ff6d3f;
   text-decoration: underline;
 }
 

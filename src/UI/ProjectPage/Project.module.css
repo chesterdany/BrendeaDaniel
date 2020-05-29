@@ -11,7 +11,7 @@ a {
 }
 
 .github {
-  color: #84c7f9;
+  color: #ff6d3f;
 }
 
 .btn {
@@ -31,7 +31,7 @@ a {
 }
 
 .btn:hover {
-  color: white;
+  color: #ff6d3f;
 }
 
 @keyframes fadein {
