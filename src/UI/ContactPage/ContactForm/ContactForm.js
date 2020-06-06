@@ -104,7 +104,8 @@ class ContactForm extends React.Component {
       <div>
         {this.state.submitted ? (
           <p className={classes.sendMessagge}>
-            Your message was send! Thank you!
+            Thank you {this.state.contactForm.name.value}! Your message was
+            send!
           </p>
         ) : null}
         {form}
