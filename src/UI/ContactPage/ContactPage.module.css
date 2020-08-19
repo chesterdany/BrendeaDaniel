@@ -30,7 +30,7 @@ h3 {
 }
 
 .ContactDetails .fadiv {
-  color: #fff;
+  color: #84c7f9;
   font-weight: 400;
   display: flex;
   justify-items: center;
@@ -41,7 +41,7 @@ h3 {
 .link {
   font-size: 30px;
   padding-right: 10px;
-  color: #fff;
+  color: #84c7f9;
 }
 
 .link:hover {
