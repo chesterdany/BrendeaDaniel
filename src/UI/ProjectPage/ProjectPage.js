@@ -7,6 +7,7 @@ import shop from "../../assests/images/shop.png";
 import todoList from "../../assests/images/todolist.png";
 import projectPlanner from "../../assests/images/projectPlaner.png";
 import solo from "../../assests/images/solo.png";
+import whack from "../../assests/images/whackAMole.png";
 import indeximage from "../../assests/images/indeximagemod.jpeg";
 
 const projectPage = () => {
@@ -23,6 +24,11 @@ const projectPage = () => {
         <h1 className={classes.Header}>Projects</h1>
         <hr className={classes.Hr} />
         <div className={classes.Gallery}>
+          <Project
+            src={whack}
+            apphref="https://chesterdany.github.io/Whack-a-mole/"
+            sourcehref="https://github.com/chesterdany/Whack-a-mole"
+          />
           <Project
             src={rgbGame}
             apphref="https://chesterdany.github.io/Portofoliu/Projects/ColorGame/colorGame.html"
