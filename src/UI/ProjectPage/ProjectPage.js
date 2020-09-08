@@ -2,13 +2,12 @@ import React from "react";
 import Navbar from "../NavBar/Navbar";
 import classes from "./ProjectPage.module.css";
 import Project from "./Project";
-import rgbGame from "../../assests/images/rgbGame.png";
 import shop from "../../assests/images/shop.png";
 import todoList from "../../assests/images/todolist.png";
-import projectPlanner from "../../assests/images/projectPlaner.png";
 import solo from "../../assests/images/solo.png";
 import whack from "../../assests/images/whackAMole.png";
 import thin from "../../assests/images/tinDog.png";
+import burger from "../../assests/images/burger.png";
 import indeximage from "../../assests/images/indeximagemod.jpeg";
 
 const projectPage = () => {
@@ -36,9 +35,9 @@ const projectPage = () => {
             sourcehref="https://github.com/chesterdany/TinDog-Start-master"
           />
           <Project
-            src={rgbGame}
-            apphref="https://chesterdany.github.io/Portofoliu/Projects/ColorGame/colorGame.html"
-            sourcehref="https://github.com/chesterdany/Portofoliu/tree/master/Projects/ColorGame"
+            src={burger}
+            apphref="https://burger-app-fd68d.web.app/"
+            sourcehref=""
           />
           <Project
             src={shop}
@@ -49,11 +48,6 @@ const projectPage = () => {
             src={todoList}
             apphref="https://chesterdany.github.io/Portofoliu/Projects/TodoListProject/index.html"
             sourcehref="https://github.com/chesterdany/Portofoliu/tree/master/Projects/TodoListProject"
-          />
-          <Project
-            src={projectPlanner}
-            apphref="https://chesterdany.github.io/Portofoliu/Projects/ProjectPlanner/index.html"
-            sourcehref="https://github.com/chesterdany/Portofoliu/tree/master/Projects/ProjectPlanner"
           />
           <Project
             src={solo}
