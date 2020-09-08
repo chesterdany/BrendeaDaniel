@@ -24,20 +24,21 @@ const homePage = () => {
             Daniel <span>Brendea</span>
           </h1>
           <hr />
-          <p>Front-End Developer and Designer</p>
+          <p>Front-End Developer</p>
         </div>
         <div className={classes.Box3}>
           <p>
-            In the begining I started learning how to code just for fun but then
-            I realized this is a very nice way to make awesome webpages and
-            apps, so i begun working on my portofolio website....I still do :)
+            In the beginning, I started learning how to code just for fun but
+            then I realized this is a very nice way to make awesome webpages and
+            apps, so I have begun working on my portfolio website...I still do
+            :)
           </p>
           <p>
             Learning from my mistakes and searching for some answers on the web
             I discovered
             <Plink href="https://github.com/chesterdany" name="Github" />,
-            <Plink href="https://stackoverflow.com/" name="Stackoverflow" />
-            and the one that help me the most
+            <Plink href="https://stackoverflow.com/" name="Stackoverflow" /> and
+            the one that helped me the most
             <Plink href="https://www.udemy.com" name="Udemy" />. Now I'm
             familiar with HTML5, CSS3, Sass, Javascript and React.
           </p>
