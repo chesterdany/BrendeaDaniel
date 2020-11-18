@@ -21,10 +21,10 @@ const homePage = () => {
         <div className={classes.Introduction}>
           <p>Hi! My name is</p>
           <h1>
-            Daniel <span>Brendea</span>
+            <span>Brendea</span> Daniel
           </h1>
           <hr />
-          <p>Front-End Developer</p>
+          <p>Entry-Level Web Developer</p>
         </div>
         <div className={classes.Box3}>
           <p>
