@@ -43,7 +43,7 @@ const contactPage = () => {
               <Plink href="https://github.com/chesterdany">
                 <FaGithub className={classes.link} />
               </Plink>
-              <Plink href="https://www.linkedin.com/in/daniel-brendea-a261a81a2/">
+              <Plink href="https://www.linkedin.com/in/brendea-daniel-a261a81a2/">
                 <FaLinkedin className={classes.link} />
               </Plink>
               <Plink href="https://www.facebook.com/chester.dani.1/">
