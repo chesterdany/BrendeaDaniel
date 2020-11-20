@@ -28,9 +28,9 @@ const homePage = () => {
         </div>
         <div className={classes.Box3}>
           <p>
-            In the beginning, I started learning how to code just for fun but
+            In the beginning, I started learning how to code just for fun, but
             then I realized this is a very nice way to make awesome webpages and
-            apps, so I have begun working on my portfolio website...I still do
+            apps, so I have begun working on my portfolio website... I still do
             :)
           </p>
           <p>
