@@ -37,7 +37,7 @@ const projectPage = () => {
           <Project
             src={burger}
             apphref="https://burger-app-fd68d.web.app/"
-            sourcehref=""
+            sourcehref="https://github.com/chesterdany/burger"
           />
           <Project
             src={shop}
