@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/BrendeaDaniel/static/css/main.912c5a14.chunk.css",
-    "main.js": "/BrendeaDaniel/static/js/main.91d371a1.chunk.js",
-    "main.js.map": "/BrendeaDaniel/static/js/main.91d371a1.chunk.js.map",
+    "main.js": "/BrendeaDaniel/static/js/main.573a795d.chunk.js",
+    "main.js.map": "/BrendeaDaniel/static/js/main.573a795d.chunk.js.map",
     "runtime-main.js": "/BrendeaDaniel/static/js/runtime-main.97b7df8e.js",
     "runtime-main.js.map": "/BrendeaDaniel/static/js/runtime-main.97b7df8e.js.map",
     "static/js/2.27e4f31f.chunk.js": "/BrendeaDaniel/static/js/2.27e4f31f.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.97b7df8e.js",
     "static/js/2.27e4f31f.chunk.js",
     "static/css/main.912c5a14.chunk.css",
-    "static/js/main.91d371a1.chunk.js"
+    "static/js/main.573a795d.chunk.js"
   ]
 }
