@@ -13,6 +13,7 @@ const navbar = () => {
       >
         Projects
       </NavLink>
+
       <NavLink to="/">
         <div className={classes.LogoDiv}>
           <img className={classes.Logo} src={logo} alt="logo" />

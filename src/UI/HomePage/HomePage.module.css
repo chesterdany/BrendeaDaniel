@@ -16,19 +16,19 @@
 
 .Box3 {
   grid-column: 1/3;
-  color: #84c7f9;
+  color: #ffffff;
   font-size: 18px;
   padding-top: 30px;
 }
 
 .Box3 a {
-  color: #ff6d3f;
+  color: #84c7f9;
   text-decoration: none;
   font-weight: 400;
 }
 
 .Box3 a:hover {
-  color: #e74141;
+  color: #ee4949;
 }
 
 .Portret {

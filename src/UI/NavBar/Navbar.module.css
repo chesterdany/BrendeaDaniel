@@ -3,8 +3,14 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  /* background-color: black; */
+  background-color: #000000;
 }
+/* .projectDiv {
+  border-radius: 10px;
+  background: linear-gradient(145deg, #060e10, #071013);
+  box-shadow: 6px 6px 13px #04090b, -6px -6px 13px #0a1519;
+  margin-left: 100px;
+} */
 
 .Logo {
   width: 40px;
@@ -18,19 +24,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #84c7f9;
+  background-color: #ffffff;
   margin: 5px;
 }
 
 .LogoDiv:hover {
-  box-shadow: 0px 0px 0px 1px #ff6d3f inset;
+  /* box-shadow: 0px 0px 0px 1px #ff6d3f inset; */
+  background-color: #ff6d3f;
 }
 
 .Link {
-  color: #84c7f9;
+  color: #fdfdfd;
   margin: 0 15%;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 400;
   text-decoration: none;
   letter-spacing: 0.02em;
 }
@@ -38,7 +45,7 @@
 .Link:hover,
 .Link.active {
   color: #ff6d3f;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 @media (max-width: 800px) {
