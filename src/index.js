@@ -8,8 +8,9 @@ import Axios from "axios";
 
 Axios.defaults.baseURL = "https://portofolio-2c5fd.firebaseio.com";
 
+// basename={window.location.pathname || ""}
 ReactDOM.render(
-  <BrowserRouter basename={window.location.pathname || ""}>
+  <BrowserRouter>
     <React.StrictMode>
       <App />
     </React.StrictMode>
