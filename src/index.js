@@ -9,7 +9,7 @@ import Axios from "axios";
 Axios.defaults.baseURL = "https://portofolio-2c5fd.firebaseio.com";
 
 // basename={window.location.pathname || ""}
-// homepage attribute in json file for gh pages
+// "homepage": "http://chesterdany.github.io/BrendeaDaniel",
 ReactDOM.render(
   <BrowserRouter>
     <React.StrictMode>
