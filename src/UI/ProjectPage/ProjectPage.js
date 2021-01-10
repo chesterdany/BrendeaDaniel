@@ -9,6 +9,7 @@ import whack from "../../assests/images/whackAMole.png";
 import thin from "../../assests/images/tinDog.png";
 import burger from "../../assests/images/burger.png";
 import indeximage from "../../assests/images/indeximagemod.jpeg";
+import memories from "../../assests/images/memories.png";
 
 const projectPage = () => {
   return (
@@ -25,19 +26,24 @@ const projectPage = () => {
         <hr className={classes.Hr} />
         <div className={classes.Gallery}>
           <Project
+            src={memories}
+            apphref="https://chesterdany.github.io/memories-app/"
+            sourcehref="https://github.com/chesterdany/memories-app"
+          />
+          <Project
             src={whack}
             apphref="https://chesterdany.github.io/Whack-a-mole/"
             sourcehref="https://github.com/chesterdany/Whack-a-mole"
           />
           <Project
-            src={thin}
-            apphref="https://chesterdany.github.io/TinDog-Start-master/"
-            sourcehref="https://github.com/chesterdany/TinDog-Start-master"
-          />
-          <Project
             src={burger}
             apphref="https://burger-app-fd68d.web.app/"
             sourcehref="https://github.com/chesterdany/burger"
+          />
+          <Project
+            src={thin}
+            apphref="https://chesterdany.github.io/TinDog-Start-master/"
+            sourcehref="https://github.com/chesterdany/TinDog-Start-master"
           />
           <Project
             src={shop}
