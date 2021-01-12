@@ -54,7 +54,10 @@ class ContactForm extends React.Component {
       email: this.state.contactForm.email.value,
       message: this.state.contactForm.message.value,
     };
-    Axios.post("/messages.json", message);
+    Axios.post(
+      "https://portfolio-messages-api.herokuapp.com/messages",
+      message
+    );
     this.setState({ submitted: true });
   };
 
