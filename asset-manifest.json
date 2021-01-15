@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/BrendeaDaniel/static/css/main.26d2a2bf.chunk.css",
-    "main.js": "/BrendeaDaniel/static/js/main.d7bc5201.chunk.js",
-    "main.js.map": "/BrendeaDaniel/static/js/main.d7bc5201.chunk.js.map",
+    "main.js": "/BrendeaDaniel/static/js/main.332f0cc6.chunk.js",
+    "main.js.map": "/BrendeaDaniel/static/js/main.332f0cc6.chunk.js.map",
     "runtime-main.js": "/BrendeaDaniel/static/js/runtime-main.97b7df8e.js",
     "runtime-main.js.map": "/BrendeaDaniel/static/js/runtime-main.97b7df8e.js.map",
     "static/js/2.27e4f31f.chunk.js": "/BrendeaDaniel/static/js/2.27e4f31f.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/BrendeaDaniel/index.html",
     "static/css/main.26d2a2bf.chunk.css.map": "/BrendeaDaniel/static/css/main.26d2a2bf.chunk.css.map",
     "static/js/2.27e4f31f.chunk.js.LICENSE.txt": "/BrendeaDaniel/static/js/2.27e4f31f.chunk.js.LICENSE.txt",
-    "static/media/CV-EN-Brendea-Daniel.e482f377.pdf": "/BrendeaDaniel/static/media/CV-EN-Brendea-Daniel.e482f377.pdf",
+    "static/media/CV-EN-Brendea-Daniel1.94e4f9fd.pdf": "/BrendeaDaniel/static/media/CV-EN-Brendea-Daniel1.94e4f9fd.pdf",
     "static/media/burger.dd2dcab8.png": "/BrendeaDaniel/static/media/burger.dd2dcab8.png",
     "static/media/daniel.44a7adfb.png": "/BrendeaDaniel/static/media/daniel.44a7adfb.png",
     "static/media/indeximagemod.4b8e9cd2.jpeg": "/BrendeaDaniel/static/media/indeximagemod.4b8e9cd2.jpeg",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.97b7df8e.js",
     "static/js/2.27e4f31f.chunk.js",
     "static/css/main.26d2a2bf.chunk.css",
-    "static/js/main.d7bc5201.chunk.js"
+    "static/js/main.332f0cc6.chunk.js"
   ]
 }
