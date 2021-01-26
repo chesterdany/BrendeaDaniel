@@ -3,17 +3,17 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, HashRouter } from "react-router-dom";
 import Axios from "axios";
 
 Axios.defaults.baseURL = "https://portofolio-2c5fd.firebaseio.com";
 
 ReactDOM.render(
-  <BrowserRouter basename={window.location.pathname || ""}>
+  <HashRouter basename={window.location.pathname || ""}>
     <React.StrictMode>
       <App />
     </React.StrictMode>
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById("root")
 );
 
