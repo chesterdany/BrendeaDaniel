@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../NavBar/Navbar";
 import classes from "./ProjectPage.module.css";
 import Project from "./Project";
-import shop from "../../assests/images/shop.png";
 import todoList from "../../assests/images/todolist.png";
 import solo from "../../assests/images/solo.png";
 import whack from "../../assests/images/whackAMole.png";
@@ -46,19 +45,14 @@ const projectPage = () => {
             sourcehref="https://github.com/chesterdany/TinDog-Start-master"
           />
           <Project
-            src={shop}
-            apphref="https://chesterdany.github.io/Portofoliu/Projects/dummyShop/index.html"
-            sourcehref="https://github.com/chesterdany/Portofoliu/tree/master/Projects/dummyShop"
-          />
-          <Project
             src={todoList}
-            apphref="https://chesterdany.github.io/Portofoliu/Projects/TodoListProject/index.html"
-            sourcehref="https://github.com/chesterdany/Portofoliu/tree/master/Projects/TodoListProject"
+            apphref="https://chesterdany.github.io/todo-list/"
+            sourcehref="https://github.com/chesterdany/todo-list"
           />
           <Project
             src={solo}
-            apphref="https://chesterdany.github.io/Portofoliu/Projects/SoloGame/index.html"
-            sourcehref="https://github.com/chesterdany/Portofoliu/tree/master/Projects/SoloGame"
+            apphref="https://chesterdany.github.io/solo-app/"
+            sourcehref="https://github.com/chesterdany/solo-app"
           />
         </div>
       </div>
