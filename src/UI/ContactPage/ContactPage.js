@@ -30,10 +30,14 @@ const contactPage = () => {
           <div className={classes.ContactDetails}>
             <h2>Get in Touch</h2>
             <div className={classes.fadiv}>
-              <FaAt className={classes.faicons} /> daniel.brendea@yahoo.com
+              <FaAt className={classes.faicons} />{" "}
+              <a href="mailto:daniel.brendea@yahoo.com">
+                daniel.brendea@yahoo.com
+              </a>
             </div>
             <div className={classes.fadiv}>
-              <FaMobileAlt className={classes.faicons} /> (+40)755 935 052
+              <FaMobileAlt className={classes.faicons} />{" "}
+              <a href="tel:+40755935052">(+40)755 935 052</a>
             </div>
             <div className={classes.fadiv}>
               <FaSkype className={classes.faicons} /> daniel.brendea

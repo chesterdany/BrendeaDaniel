@@ -1,5 +1,5 @@
 import React from "react";
-import cv from "../../../assests/cv/CV-EN-Brendea-Daniel1.pdf";
+import cv from "../../../assests/cv/CV-EN-Brendea-Daniel2.pdf";
 import classes from "./cvButton.module.css";
 
 const cvButton = (props) => {
