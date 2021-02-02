@@ -3,7 +3,7 @@ import indeximage from "../../assests/images/indeximagemod.jpeg";
 import classes from "./HomePage.module.css";
 import Navbar from "../NavBar/Navbar";
 import portret from "../../assests/images/daniel.png";
-import Plink from "./Plink/pLink";
+// import Plink from "./Plink/pLink";
 
 const homePage = () => {
   return (
@@ -27,20 +27,14 @@ const homePage = () => {
           <p>Entry-Level Web Developer</p>
         </div>
         <div className={classes.Box3}>
-          <p>
+          <p id="description">
             In the beginning, I started learning how to code just for fun, but
             then I realized this is a very nice way to make awesome webpages and
-            apps, so I have begun working on my portfolio website... I still do
-            :)
-          </p>
-          <p>
+            apps, so I have begun working on my portfolio website... I still do!
             Learning from my mistakes and searching for some answers on the web
-            I discovered
-            <Plink href="https://github.com/chesterdany" name="Github" />,
-            <Plink href="https://stackoverflow.com/" name="Stackoverflow" /> and
-            the one that helped me the most
-            <Plink href="https://www.udemy.com" name="Udemy" />. Now I'm
-            familiar with HTML5, CSS3, Sass, Javascript and React.
+            I discovered Github, Stackoverflow and the one that helped me the
+            most Udemy. Now I'm familiar with HTML5, CSS3, Sass, Javascript and
+            React.;
           </p>
         </div>
       </div>
