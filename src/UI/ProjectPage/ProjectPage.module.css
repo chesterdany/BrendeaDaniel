@@ -31,7 +31,7 @@
 
 .Gallery img {
   width: 100%;
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 
 @media (max-width: 800px) {

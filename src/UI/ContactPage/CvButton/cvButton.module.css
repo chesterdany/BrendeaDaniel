@@ -1,21 +1,12 @@
 .cvdivlink {
-  background-color: #000000;
-  border: 1px solid #ff6d3f;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 17%;
-  width: 130px;
-  /* border-radius: 10px; */
-  box-sizing: border-box;
-  font-weight: 400;
-  padding: 6px;
-  border-radius: 10px;
+  display: inline-block;
+  padding: 5px 15px;
+  margin-top: 10%;
 }
 
 a {
   color: #84c7f9;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 @media (max-width: 800px) {

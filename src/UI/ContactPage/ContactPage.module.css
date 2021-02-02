@@ -10,6 +10,10 @@
   color: #84c7f9;
 }
 
+.ContactPage a {
+  text-decoration: none;
+}
+
 .ContactDiv {
   display: grid;
   grid-template-columns: 40% 55%;
@@ -42,8 +46,9 @@ h3 {
   font-weight: 400;
 }
 
-.fadiv a:hover {
+a:hover {
   color: #ff6d3f;
+  transition-duration: 1s;
 }
 
 .link {
@@ -54,6 +59,7 @@ h3 {
 
 .link:hover {
   color: #ff6d3f;
+  transition-duration: 1s;
 }
 
 .faicons {
