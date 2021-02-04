@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/BrendeaDaniel/static/css/main.6c4d00a3.chunk.css",
-    "main.js": "/BrendeaDaniel/static/js/main.44f03648.chunk.js",
-    "main.js.map": "/BrendeaDaniel/static/js/main.44f03648.chunk.js.map",
+    "main.css": "/BrendeaDaniel/static/css/main.88699c5d.chunk.css",
+    "main.js": "/BrendeaDaniel/static/js/main.4f89ca4c.chunk.js",
+    "main.js.map": "/BrendeaDaniel/static/js/main.4f89ca4c.chunk.js.map",
     "runtime-main.js": "/BrendeaDaniel/static/js/runtime-main.97b7df8e.js",
     "runtime-main.js.map": "/BrendeaDaniel/static/js/runtime-main.97b7df8e.js.map",
     "static/js/2.330daf7d.chunk.js": "/BrendeaDaniel/static/js/2.330daf7d.chunk.js",
     "static/js/2.330daf7d.chunk.js.map": "/BrendeaDaniel/static/js/2.330daf7d.chunk.js.map",
     "index.html": "/BrendeaDaniel/index.html",
-    "static/css/main.6c4d00a3.chunk.css.map": "/BrendeaDaniel/static/css/main.6c4d00a3.chunk.css.map",
+    "static/css/main.88699c5d.chunk.css.map": "/BrendeaDaniel/static/css/main.88699c5d.chunk.css.map",
     "static/js/2.330daf7d.chunk.js.LICENSE.txt": "/BrendeaDaniel/static/js/2.330daf7d.chunk.js.LICENSE.txt",
     "static/media/CV-EN-Brendea-Daniel2.53d2e39a.pdf": "/BrendeaDaniel/static/media/CV-EN-Brendea-Daniel2.53d2e39a.pdf",
     "static/media/burger.dd2dcab8.png": "/BrendeaDaniel/static/media/burger.dd2dcab8.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.97b7df8e.js",
     "static/js/2.330daf7d.chunk.js",
-    "static/css/main.6c4d00a3.chunk.css",
-    "static/js/main.44f03648.chunk.js"
+    "static/css/main.88699c5d.chunk.css",
+    "static/js/main.4f89ca4c.chunk.js"
   ]
 }
