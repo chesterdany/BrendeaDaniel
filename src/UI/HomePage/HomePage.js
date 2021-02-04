@@ -34,7 +34,7 @@ const homePage = () => {
             Learning from my mistakes and searching for some answers on the web
             I discovered Github, Stackoverflow and the one that helped me the
             most Udemy. Now I'm familiar with HTML5, CSS3, Sass, Javascript and
-            React.;
+            React.
           </p>
         </div>
       </div>

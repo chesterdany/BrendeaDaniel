@@ -48,7 +48,7 @@ h3 {
 
 a:hover {
   color: #ff6d3f;
-  transition-duration: 1s;
+  transition-duration: 0.6s;
 }
 
 .link {
@@ -59,7 +59,7 @@ a:hover {
 
 .link:hover {
   color: #ff6d3f;
-  transition-duration: 1s;
+  transition-duration: 0.6s;
 }
 
 .faicons {
