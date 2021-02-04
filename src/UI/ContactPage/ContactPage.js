@@ -27,6 +27,7 @@ const contactPage = () => {
 
       <div className={classes.ContactPage}>
         <div className={classes.ContactDiv}>
+          <ContactForm />
           <div className={classes.ContactDetails}>
             <h2>Get in Touch</h2>
             <div className={classes.fadiv}>
@@ -43,7 +44,7 @@ const contactPage = () => {
               <FaSkype className={classes.faicons} /> daniel.brendea
             </div>
             <div className={classes.SocialDiv}>
-              <h3>Social</h3>
+              {/* <h3>Social</h3> */}
               <Plink href="https://github.com/chesterdany">
                 <FaGithub className={classes.link} />
               </Plink>
@@ -56,7 +57,6 @@ const contactPage = () => {
             </div>
             <CvButton className={classes.btn} />
           </div>
-          <ContactForm />
         </div>
       </div>
       {/* <Footer /> */}

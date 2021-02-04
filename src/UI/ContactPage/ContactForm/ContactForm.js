@@ -98,7 +98,7 @@ class ContactForm extends React.Component {
         <input
           disabled={!this.state.submitable || this.state.submitted}
           type="submit"
-          value="Send"
+          value="Send Message"
           className={classes.submitbtn}
         />
       </form>

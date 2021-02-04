@@ -16,9 +16,9 @@
 
 .ContactDiv {
   display: grid;
-  grid-template-columns: 40% 55%;
+  grid-template-columns: 40% 40%;
   padding: 7% 15%;
-  column-gap: 5%;
+  column-gap: 20%;
 }
 
 h2 {
@@ -52,7 +52,8 @@ a:hover {
 }
 
 .link {
-  font-size: 30px;
+  font-size: 25px;
+  margin-top: 10%;
   padding-right: 10px;
   color: #84c7f9;
 }
@@ -70,7 +71,7 @@ a:hover {
 @media (max-width: 800px) {
   .ContactDiv {
     display: block;
-    padding: 7% 30px;
+    padding: 7% 15%;
   }
   .ContactDetails {
     margin: 70px 0;
