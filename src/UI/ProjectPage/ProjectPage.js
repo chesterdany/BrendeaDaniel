@@ -5,7 +5,7 @@ import Project from "./Project";
 import todoList from "../../assests/images/todolist.png";
 import solo from "../../assests/images/solo.png";
 import whack from "../../assests/images/whackAMole.png";
-import thin from "../../assests/images/tinDog.png";
+import weather from "../../assests/images/weather-app.png";
 import burger from "../../assests/images/burger.png";
 import indeximage from "../../assests/images/indeximagemod.jpeg";
 import memories from "../../assests/images/memories.png";
@@ -35,15 +35,16 @@ const projectPage = () => {
             sourcehref="https://github.com/chesterdany/Whack-a-mole"
           />
           <Project
+            src={weather}
+            apphref="https://weather-pwaapp.netlify.app/"
+            sourcehref="https://github.com/chesterdany/weather-pwa"
+          />
+          <Project
             src={burger}
             apphref="https://burger-app-fd68d.web.app/"
             sourcehref="https://github.com/chesterdany/burger"
           />
-          <Project
-            src={thin}
-            apphref="https://chesterdany.github.io/TinDog-Start-master/"
-            sourcehref="https://github.com/chesterdany/TinDog-Start-master"
-          />
+
           <Project
             src={todoList}
             apphref="https://chesterdany.github.io/todo-list/"

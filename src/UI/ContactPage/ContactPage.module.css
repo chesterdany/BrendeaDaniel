@@ -71,7 +71,7 @@ a:hover {
 @media (max-width: 800px) {
   .ContactDiv {
     display: block;
-    padding: 7% 15%;
+    padding: 7% 10%;
   }
   .ContactDetails {
     margin: 70px 0;
