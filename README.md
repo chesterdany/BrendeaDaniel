@@ -6,4 +6,4 @@
 
 ## Introduction
 
-This is my first portfolio website create with create-react-app.It has an API I created to store the messagges I receive and get an email when the database is updated
+This is my first portfolio website created with create-react-app. It is connected with an API I made to store the messages I receive and get an email when the database is updated.
