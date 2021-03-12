@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3ec7314dc68558163171",
+    "revision": "5d573cd00f6e7b495ee9",
     "url": "/BrendeaDaniel/static/css/main.2f723ce2.chunk.css"
   },
   {
-    "revision": "3ec7314dc68558163171",
-    "url": "/BrendeaDaniel/static/js/main.7d0523f8.chunk.js"
+    "revision": "5d573cd00f6e7b495ee9",
+    "url": "/BrendeaDaniel/static/js/main.3055d8e1.chunk.js"
   },
   {
     "revision": "623492eefdc70d07d17d",
@@ -48,11 +48,11 @@ self.__precacheManifest = [
     "url": "/BrendeaDaniel/static/media/memories.f2a4eed7.png"
   },
   {
-    "revision": "1077898f8ebec492ad22d66d2db2f629",
-    "url": "/BrendeaDaniel/static/media/CV-EN-Brendea-Daniel2.1077898f.pdf"
+    "revision": "7533c22423a899bcaf16844671c79d29",
+    "url": "/BrendeaDaniel/static/media/CV-EN-Brendea-Daniel.7533c224.pdf"
   },
   {
-    "revision": "4c44638d421a76f5e758e105c20ea21a",
+    "revision": "37f64d53d36867301822ce169893f867",
     "url": "/BrendeaDaniel/index.html"
   }
 ];
