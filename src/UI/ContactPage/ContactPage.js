@@ -1,15 +1,8 @@
 import React from "react";
 import Navbar from "../NavBar/Navbar";
 import classes from "./ContactPage.module.css";
-import {
-  FaGithub,
-  FaFacebook,
-  FaLinkedin,
-  FaAt,
-  FaSkype,
-  FaMobileAlt,
-} from "react-icons/fa";
-import CvButton from "./CvButton/cvButton";
+import { FaGithub, FaFacebook, FaLinkedin, FaAt, FaSkype, FaMobileAlt } from "react-icons/fa";
+// import CvButton from "./CvButton/cvButton";
 import Plink from "../HomePage/Plink/pLink";
 import ContactForm from "./ContactForm/ContactForm";
 import indeximage from "../../assests/images/indeximagemod.jpeg";
@@ -18,11 +11,7 @@ import indeximage from "../../assests/images/indeximagemod.jpeg";
 const contactPage = () => {
   return (
     <React.Fragment>
-      <img
-        className={classes.IndexImage}
-        src={indeximage}
-        alt="backgroundImage"
-      />
+      <img className={classes.IndexImage} src={indeximage} alt="backgroundImage" />
       <Navbar />
 
       <div className={classes.ContactPage}>
@@ -32,9 +21,7 @@ const contactPage = () => {
             <h2>Get in Touch</h2>
             <div className={classes.fadiv}>
               <FaAt className={classes.faicons} />{" "}
-              <a href="mailto:daniel.brendea@yahoo.com">
-                daniel.brendea@yahoo.com
-              </a>
+              <a href="mailto:daniel.brendea@yahoo.com">daniel.brendea@yahoo.com</a>
             </div>
             <div className={classes.fadiv}>
               <FaMobileAlt className={classes.faicons} />{" "}
@@ -51,11 +38,11 @@ const contactPage = () => {
               <Plink href="https://www.linkedin.com/in/brendea-daniel-a261a81a2/">
                 <FaLinkedin className={classes.link} />
               </Plink>
-              <Plink href="https://www.facebook.com/chester.dani.1/">
+              {/* <Plink href="https://www.facebook.com/chester.dani.1/">
                 <FaFacebook className={classes.link} />
-              </Plink>
+              </Plink> */}
             </div>
-            <CvButton className={classes.btn} />
+            {/* <CvButton className={classes.btn} /> */}
           </div>
         </div>
       </div>

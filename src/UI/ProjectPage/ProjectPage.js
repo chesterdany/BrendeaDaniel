@@ -1,14 +1,15 @@
-import React from 'react';
-import Navbar from '../NavBar/Navbar';
-import classes from './ProjectPage.module.css';
-import Project from './Project';
-import solo from '../../assests/images/solo.png';
-import ecommerce from '../../assests/images/ecommerce.png';
-import whack from '../../assests/images/whackAMole.png';
-import weather from '../../assests/images/weather-app.png';
-import burger from '../../assests/images/burger.png';
-import indeximage from '../../assests/images/indeximagemod.jpeg';
-import memories from '../../assests/images/memories.png';
+import React from "react";
+import Navbar from "../NavBar/Navbar";
+import classes from "./ProjectPage.module.css";
+import Project from "./Project";
+import solo from "../../assests/images/solo.png";
+import ecommerce from "../../assests/images/ecommerce.png";
+import whack from "../../assests/images/whackAMole.png";
+import weather from "../../assests/images/weather-app.png";
+import burger from "../../assests/images/burger.png";
+import indeximage from "../../assests/images/indeximagemod.jpeg";
+import memories from "../../assests/images/memories.png";
+import memoryGame from "../../assests/images/memory.png";
 
 const projectPage = () => {
   return (
@@ -29,6 +30,11 @@ const projectPage = () => {
             src={memories}
             apphref="https://chesterdany.github.io/memories-app/"
             sourcehref="https://github.com/chesterdany/memories-app"
+          />
+          <Project
+            src={memoryGame}
+            apphref="https://memory-game-dny.netlify.app/"
+            sourcehref="https://github.com/chesterdany/magic-memory"
           />
 
           <Project
