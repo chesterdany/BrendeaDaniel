@@ -37,7 +37,7 @@
 .Link {
   color: #fdfdfd;
   margin: 0 15%;
-  font-size: 20px;
+  font-size: 1.5rem;
   font-weight: 400;
   text-decoration: none;
   letter-spacing: 0.02em;
@@ -55,6 +55,15 @@
   }
   .Link {
     margin: 0 30px;
+  }
+}
+@media (min-width: 2600px) {
+  .Link {
+    font-size: 2.5rem;
+  }
+  .Logo {
+    width: 60px;
+    height: 52px;
   }
 }
 

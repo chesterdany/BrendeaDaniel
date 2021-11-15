@@ -19,3 +19,13 @@
 .sendMessagge {
   color: #ffffff;
 }
+
+@media (min-width: 2600px) {
+  .submitbtn {
+    height: 80px;
+    font-size: 2rem;
+  }
+  .sendMessagge {
+    font-size: 2rem;
+  }
+}

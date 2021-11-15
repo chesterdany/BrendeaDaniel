@@ -22,13 +22,8 @@
 }
 
 h2 {
-  font-size: 30px;
-  font-weight: 450;
-  color: #ff6d3f;
-}
-
-h3 {
-  font-size: 20px;
+  margin-top: 0;
+  font-size: 2rem;
   font-weight: 450;
   color: #ff6d3f;
 }
@@ -79,5 +74,22 @@ a:hover {
   .fadiv {
     display: flex;
     justify-content: center;
+  }
+}
+
+@media (min-width: 2600px) {
+  h2 {
+    font-size: 3rem;
+  }
+
+  .fadiv {
+    font-size: 2rem;
+  }
+  .faicons {
+    font-size: 40px;
+  }
+
+  .link {
+    font-size: 40px;
   }
 }

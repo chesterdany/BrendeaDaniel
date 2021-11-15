@@ -17,7 +17,7 @@
 }
 
 .Hr {
-  margin-top: 3%;
+  margin-top: 40px;
   width: 80%;
   border: 1px solid #ff6d3f;
 }
@@ -44,5 +44,18 @@
   }
   .Hr {
     width: 90%;
+  }
+}
+
+@media (min-width: 2600px) {
+  .Header {
+    font-size: 4rem;
+  }
+  .Hr {
+    margin-top: 70px;
+  }
+  .Gallery {
+    grid-template-columns: repeat(auto-fit, minmax(450px, 0.8fr));
+    font-size: 2rem;
   }
 }
